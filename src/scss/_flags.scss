@@ -1,0 +1,29 @@
+.flags {
+  background-color: rgb(243, 243, 243);
+  .container {
+    .row {
+      .cards {
+        .card {
+          min-height: 370px;
+          img {
+            border-bottom: 3px solid rgb(209, 208, 208);
+          }
+          .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            .card-title {
+              font-weight: 700;
+              font-size: 18px;
+            }
+            .card-text {
+              .infos {
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
